@@ -1,4 +1,6 @@
 @sly/deck(title="Beyond TDD")
+  style:
+
 
   section
 
@@ -7,7 +9,8 @@
       br>br>br
       h4 Getting more from your test suite
         br>br
-        a(href="http://localhost/testing") http://localhost/testing
+        // a(href="http://192.168.254.135:8888/testing") http://192.168.254.135:8888/testing
+        a(href="http://talks.lighter.io/testing") http://talks.lighter.io/testing
 
     @sly/slide(bg="/glass.jpg")
       br>br>br
@@ -15,9 +18,20 @@
       h3 I like to make stuff.
       h4 (Sometimes it works as planned.)
 
-    @sly/slide(bg="/roemer.png")
-      br>br>br>br>br>br
-      h2 "Tests must run<br><b>blazingly fast</b>."
+    @sly/slide(bg="/ebayskin.png")
+      h2 We're Hiring!
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 TDD
+      h3 Write tests first
+
+    @sly/slide(bg="/tj.jpg")
+      h2
+        b mocha:
+        space extra emo
+      h2 teach room
+        space
+        b exam
 
     @sly/slide(bg="/money.jpg")
       br>br>br>br>br
@@ -25,22 +39,26 @@
         b Dev time
         space is money.
 
+    @sly/slide(bg="/roemer.png")
+      br>br>br>br>br>br
+      h2 "Tests must run<br><b>blazingly fast</b>."
+
     @sly/slide(bg="/jump.jpg")
       br>br>br>br>br
-      h2 How can a test
-        br runner be
+      h2 How to make a
+        br test runner
         space
-        b faster?
+        b faster...
 
     @sly/slide(bg="/pcloadletter.jpg")
-      br>br>br>br>br
+      br>br>br>br>br>br
       h2 Option 1:
-        space>b Clean up
+        space>b Kill cruft
 
     @sly/slide(bg="/tetris.gif")
       br>br>br>br>br
       h2 Option 2:
-        space>b Cleverness
+        space>b Be clever
 
     @sly/slide(bg="/harbaugh.gif")
       br>br>br>br>br>br
@@ -65,16 +83,19 @@
         li Stack snippets
         li Coverage
       ul(style="float:left;width:50%;")
+        li>tt exam-bench
         li>tt exam-is
         li>tt exam-mock
-        li>tt exam-bench
         li>tt alert/debug
 
-    @sly/slide(bg="/bug.jpg")
-      br>br>br>br>br>br>br
-      h2
-        tt alert / debug
+    @sly/slide(bg="/hoverboard.png")
+      h2 The Future
+      h4 Where we're going, we need a <a href="https://github.com/lighterio/exam/blob/master/ROADMAP.md">roadmap</a>.
+
+    @sly/slide(bg="/ebayskin.png")
+      h2 We're Hiring!
 
     @sly/slide(bg="/bellevue.jpg")
-      h2 Thank you!
-      : <script type="text/javascript" src=""></script>
+      img(src="/exam.svg" style="position:absolute;width:100%;height:100%")
+      h5(style="position:absolute;width:100%;height:100%;text-align:center;color:black")
+        br>br>br>br>br Thank you!
