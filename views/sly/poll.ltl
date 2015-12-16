@@ -1,0 +1,4 @@
+state.pollId = id
+state.pollChoice = -1
+
+ul.poll#={id} ={block}

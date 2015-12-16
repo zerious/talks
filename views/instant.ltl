@@ -1,0 +1,149 @@
+@sly/deck(title="Instant Everything")
+
+  section
+
+    @sly/slide(bg="/bellevue.jpg")
+      h2 BellevueJS @ eBay
+      h4 SSID: eBayGuest
+        br PW: #WeAreeBay
+        br>br
+
+    @sly/slide(bg="/sky-diving.jpg")
+      h1 Instant Everything!
+      br>br>br
+      h4 Assembling extreme environments
+        br>br
+        a(href="http://192.168.115.230:9797/testing") http://192.168.115.230:9797/testing
+
+    @sly/slide(bg="/glass.jpg")
+      br>br>br
+      h2 Hello! &nbsp; I'm Sam.
+      h3 I like to make stuff.
+      h4 (Sometimes it works as planned.)
+
+    @sly/slide(bg="/hoverboard.png")
+      h2 I get impatient.
+      br>br
+      h3 I want the future now.
+
+    @sly/slide(bg="/jump.jpg")
+      br>br>br>br
+      h2 Speed matters.
+
+    @sly/slide(bg="/money.jpg")
+      br>br>br>br>br
+      h2 Dev time is money.
+
+    @sly/slide(bg="/bug.jpg")
+      h2 Debug time is pain.
+
+    @sly/slide(bg="/pcloadletter.jpg")
+      br>br>br>br>br
+      h2 Debugging something a 2nd time makes me want to smash things.
+
+    @sly/slide()
+      @sly/iframe(name="soccer" src="https://www.youtube.com/embed/QyErlfXGGAk?autoplay=1")
+
+    @sly/slide(bg="/opp.jpg")
+      br>br>br>br
+      h2 Disclaimer:
+      h3 Sometimes I'm not down with
+        br Other People's Packages.
+
+    @sly/slide(bg="/galaxy.jpg")
+      br>br>br>br>br>br
+      h3 Questing for the ideal environment?
+      h4
+        b Explore the galaxy of options! &nbsp;
+        space
+        : IDEs + Plugins + Code Styles + Frameworks + CIs + Daemon/Watchers + UI Libraries
+
+    @sly/slide(bg="/enterprise.jpg")
+      h2 How do you explore?
+      @sly/poll(id="exploration")
+        @sly/choice(href="https://npmjs.com/" value="npmjs.com")
+        @sly/choice(href="https://www.google.com/?q=site:npmjs.com" value="google.com")
+        @sly/choice(href="http://node-modules.com/" value="node-modules.com")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 What's your IDE of choice?
+      @sly/poll(id="ide")
+        @sly/choice(value="Atom")
+        @sly/choice(value="Sublime Text")
+        @sly/choice(value="vim")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/enterprise.jpg")
+      h2 Atom
+      ul
+        li Free
+        li Made by GitHub
+        li Rich Plugin Community
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Use any IDE plugins?
+      @sly/poll(id="plugins")
+        @sly/choice(value="Linting")
+        @sly/choice(value="Snippets")
+        @sly/choice(value="Autocompletion")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/enterprise.jpg")
+      h2 Standard
+      h4 Can&apos;t we all just get along?
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Frameworks in the front?
+      @sly/poll(id="style")
+        @sly/choice(value="React")
+        @sly/choice(value="Angular")
+        @sly/choice(value="Ember")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Frameworks in the back?
+      @sly/poll(id="style")
+        @sly/choice(value="Express")
+        @sly/choice(value="Hapi.js")
+        @sly/choice(value="Meteor")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Do you like to deploy?
+      @sly/poll(id="style")
+        @sly/choice(value="Yes, with Jenkins")
+        @sly/choice(value="Yes, with proprietary corporate stuff")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 How do you test?
+      @sly/poll(id="style")
+        @sly/choice(value="Mocha")
+        @sly/choice(value="Karma")
+        @sly/choice(value="QUnit")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Do you like to watch?
+      @sly/poll(id="style")
+        @sly/choice(value="nodemon")
+        @sly/choice(value="browser-refresh")
+        @sly/choice(value="webpack")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/enterprise.jpg")
+      h2 browser-refresh
+      h4 Made at eBay!
+
+    @sly/slide(bg="/matrix.jpg")
+      h2 Everybody needs some UI, right?
+      @sly/poll(id="style")
+        @sly/choice(value="jQuery UI")
+        @sly/choice(value="Bootstrap")
+        @sly/choice(value="Webpack")
+        @sly/choice(other="Other")
+
+    @sly/slide(bg="/bellevue.jpg")
+      h2 Thank you!
+      : <script type="text/javascript" src=""></script>

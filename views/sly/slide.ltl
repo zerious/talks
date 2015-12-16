@@ -1,0 +1,23 @@
+counter = state.slideCounter = state.slideCounter + 1
+index = state.slideIndex
+
+position = 'hidden'
+if counter < index && counter > index - 2
+  position = 'before'
+else if counter > index && counter < index + 2
+  position = 'after'
+else if counter === index
+  position = 'on'
+
+if src
+  slide.={position}
+    if position !== 'hidden'
+      iframe(src="={src}")
+else
+  style=''
+  if bg
+    style='background-image:url(' + bg + ')'
+
+  slide.={position}(style="={style}")
+    if position !== 'hidden'
+      : ={block}

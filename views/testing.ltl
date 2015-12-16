@@ -1,0 +1,80 @@
+@sly/deck(title="Beyond TDD")
+
+  section
+
+    @sly/slide(bg="/dummy.gif")
+      h1 Beyond TDD
+      br>br>br
+      h4 Getting more from your test suite
+        br>br
+        a(href="http://localhost/testing") http://localhost/testing
+
+    @sly/slide(bg="/glass.jpg")
+      br>br>br
+      h2 Hello! &nbsp; I'm Sam.
+      h3 I like to make stuff.
+      h4 (Sometimes it works as planned.)
+
+    @sly/slide(bg="/roemer.png")
+      br>br>br>br>br>br
+      h2 "Tests must run<br><b>blazingly fast</b>."
+
+    @sly/slide(bg="/money.jpg")
+      br>br>br>br>br
+      h2
+        b Dev time
+        space is money.
+
+    @sly/slide(bg="/jump.jpg")
+      br>br>br>br>br
+      h2 How can a test
+        br runner be
+        space
+        b faster?
+
+    @sly/slide(bg="/pcloadletter.jpg")
+      br>br>br>br>br
+      h2 Option 1:
+        space>b Clean up
+
+    @sly/slide(bg="/tetris.gif")
+      br>br>br>br>br
+      h2 Option 2:
+        space>b Cleverness
+
+    @sly/slide(bg="/harbaugh.gif")
+      br>br>br>br>br>br
+      h2 Solution 1:
+        space>b Start over
+
+    @sly/slide(bg="/shotski.png")
+      br>br>br>br>br>br>br>br>br>br
+      h2 Solution 2:
+        space>b Parallelize!
+
+    @sly/slide(src="http://lighter.io/exam")
+
+    @sly/slide(bg="/greenhex.jpg")
+      h3
+        big>tt exam
+        space
+        : Key Advantages
+      ul(style="float:left;width:50%;")
+        li Faster
+        li Clustered
+        li Stack snippets
+        li Coverage
+      ul(style="float:left;width:50%;")
+        li>tt exam-is
+        li>tt exam-mock
+        li>tt exam-bench
+        li>tt alert/debug
+
+    @sly/slide(bg="/bug.jpg")
+      br>br>br>br>br>br>br
+      h2
+        tt alert / debug
+
+    @sly/slide(bg="/bellevue.jpg")
+      h2 Thank you!
+      : <script type="text/javascript" src=""></script>

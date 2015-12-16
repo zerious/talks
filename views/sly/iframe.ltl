@@ -1,0 +1,2 @@
+if state.slideIndex === state.slideCounter
+  iframe(src="={src}")

@@ -1,0 +1,1 @@
+require('./wait')(4)

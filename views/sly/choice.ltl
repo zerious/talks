@@ -1,0 +1,25 @@
+id = state.pollId
+n = ++state.pollChoice
+if other
+  value = 'other'
+
+li
+  label.radio(for="={id}={n}")
+    b.radio
+      if state[id] === value
+        input#={id}={n}(type="radio" name="={id}" value="${value}" checked)
+        i.radio
+      else
+        input#={id}={n}(type="radio" name="={id}" value="${value}")
+    if other
+      input.other(type="text" id="={id}Other" name="={id}Other" placeholder="${other}")
+    else if link
+      a(href="={link}") ${value}
+    else
+      : ${value}
+  counts = state.counts || 0
+  counts = counts[id] || 0
+  map = state[id] || 0
+  if counts
+    percent = (counts[value] || 0) / (counts.TOTAL || 1) * 100
+    .bar(style="width:${percent}%")
